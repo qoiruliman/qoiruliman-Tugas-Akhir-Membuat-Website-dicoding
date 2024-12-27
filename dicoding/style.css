@@ -1,0 +1,166 @@
+@media screen and (max-width: 600px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-color: #0047AB;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav {
+        margin: 10px 0;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    main {
+        flex-direction: column;
+        display: flex;
+        padding: 20px;
+    }
+    
+    #content {
+        flex: 3;
+        order: 2;
+        padding-right: 0;
+    }
+    
+    article {
+        background-color: #e6e6fa;
+        margin-bottom: 80px;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    
+    aside {
+        flex: 1; 
+        order: 1;
+        background-color: #f1f1f1;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .foto{
+        width: 100%;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        border: 1px solid #ccc; 
+        padding: 8px;
+        text-align: left; 
+    }
+    
+    .infobox-header {
+        background: #0047AB; 
+        color: white; 
+    }
+    
+    .infobox-label {
+        font-weight: bold;
+    }
+    .linkWeb {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    
+    .linkWeb:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }    
+    footer {
+        background-color: #0047AB;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 601px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        background-color: #0047AB;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        margin: 10px 0;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    main {
+        display: flex;
+        padding: 20px;
+    }
+    #content {
+        flex: 3;
+        padding-right: 20px;
+    }
+    article {
+        background-color: lavender;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    aside {
+        flex: 1;
+        background-color: #f1f1f1;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        border: 1px solid #ccc; 
+        padding: 8px;
+        text-align: left; 
+    }
+    
+    .infobox-header {
+        background: #0047AB; 
+        color: white; 
+    }
+    .infobox-label {
+        font-weight: bold;
+    }
+    .linkWeb {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    
+    .linkWeb:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }    
+    footer {
+        background-color: #0047AB;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+}
